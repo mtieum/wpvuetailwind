@@ -7,8 +7,8 @@ const PurgecssPlugin = require('purgecss-webpack-plugin')
   Config
   ========================================================================== */
   const config = {
-    siteUrl: 'dogpatchdev.test',
-    proxyUrl: 'https://dogpatchdev.test',
+    siteUrl: 'localhost',
+    proxyUrl: 'http://localhost',
     port: 3000,
     openOnStart: false,
     pathToLocalSSLCert: '',
